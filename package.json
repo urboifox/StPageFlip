@@ -5,8 +5,6 @@
   "browser": "dist/js/page-flip.browser.js",
   "author": "oleg.litovski9@gmail.com",
   "license": "MIT",
-  "rootDir": "./src",
-  "ignoreDeprecations": "5.0",
   "description": "Powerful, simple and flexible JS Library for creating realistic and beautiful page turning effect",
   "repository": {
     "type": "git",

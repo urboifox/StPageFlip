@@ -6,7 +6,9 @@
         "noImplicitAny": true,
         "lib": ["es6", "es2016", "dom", "dom.iterable"],
         "module": "es6",
-        "target": "es2017"
+        "target": "es2017",
+        "rootDir": "./src",
+        "ignoreDeprecations": "5.0"
     },
     "typedocOptions": {
         "name": "StPageFlip",

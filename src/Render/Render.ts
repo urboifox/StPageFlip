@@ -304,14 +304,14 @@ export abstract class Render {
      * Get parent block offset width
      */
     public getBlockWidth(): number {
-        return this.app.getUI().getWrapper().offsetWidth;
+        return this.app.getUI().getDistElement().offsetWidth;
     }
 
     /**
      * Get parent block offset height
      */
     public getBlockHeight(): number {
-        return this.app.getUI().getWrapper().offsetHeight;
+        return this.app.getUI().getDistElement().offsetHeight;
     }
 
     /**

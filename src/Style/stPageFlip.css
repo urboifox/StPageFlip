@@ -61,9 +61,9 @@
 }
 
 /* rtl */
-.stf__wrapper.--rtl {
+.stf__wrapper.--rtl .stf__block {
   transform: scaleX(-1);
 }
-.stf__wrapper.--rtl .stf__item > * {
+.stf__wrapper.--rtl .stf__block .stf__item > * {
   transform: scaleX(-1);
 }
